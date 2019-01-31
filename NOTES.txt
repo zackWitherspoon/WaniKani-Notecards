@@ -8,3 +8,15 @@ Option1:
 		  https://api.wanikani.com/v2/subjects?types=vocabulary
     	 	  https://api.wanikani.com/v2/subjects?types=radicals
 	  to get the radicals you need/want
+
+
+Technologies:
+	Java with Spring Boot
+	React front end
+	Push to GCP for otg use
+
+Milestones:
+	1. Get Spring Boot and Backend working properly and use TDD as  means to imporve code
+	2. Get frontend set up and running effectively. 
+	3. Deploy to cloud
+	4. E2E Testing
