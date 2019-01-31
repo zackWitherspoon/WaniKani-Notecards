@@ -1,0 +1,10 @@
+# Wanikani App
+
+Option1:
+  How to get all study materials and start to pull them from the API:
+    Use: https://api.wanikani.com/v2/assignments?unlocked=true
+  Then remove the ‘ ”srs_stage": 0 ’ results, 
+  Then use: https://api.wanikani.com/v2/subjects?types=kanji
+		  https://api.wanikani.com/v2/subjects?types=vocabulary
+    	 	  https://api.wanikani.com/v2/subjects?types=radicals
+	  to get the radicals you need/want
